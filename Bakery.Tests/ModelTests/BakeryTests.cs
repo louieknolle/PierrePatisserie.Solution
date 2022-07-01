@@ -49,7 +49,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void PastryOrderConstructor_CreateInstanceOfPastryOrder_PastryOrder()
     {
-      PastryOrder newPastryOrder = new PastryOrder();
+      PastryOrder newPastryOrder = new PastryOrder(3);
       Assert.AreEqual(typeof(PastryOrder), newPastryOrder.GetType());
     }
 

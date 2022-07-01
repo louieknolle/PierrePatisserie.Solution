@@ -7,6 +7,13 @@ namespace Pastry.Models {
 
   public class PastryOrder
   {
-    
+    public int TotalPastry { get; }
+
+    public PastryOrder(int totalPastry)
+    {
+      TotalPastry = totalPastry;
+
+      // _instances.Add(this);
+    }
   }
 }
