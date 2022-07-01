@@ -61,6 +61,17 @@ namespace Bakery.Tests
       int resultTotal = newPastryOrder.TotalPastry;
       Assert.AreEqual(totalPastry, resultTotal);
     }
+
+    [TestMethod]
+    public void SetTotalPastry_SetTotalPastry_Int()
+    {
+      int totalPastry = 3;
+      PastryOrder newPastryOrder = new PastryOrder(totalPastry);
+      int updatedTotal = 5;
+      newPastryOrder.TotalPastry = updatedTotal;
+      int resultTotal = newPastryOrder.TotalPastry;
+      Assert.AreEqual(updatedTotal, resultTotal);
+    }
   }
 
 }
