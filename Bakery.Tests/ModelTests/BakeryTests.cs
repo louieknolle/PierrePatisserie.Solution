@@ -52,6 +52,15 @@ namespace Bakery.Tests
       PastryOrder newPastryOrder = new PastryOrder();
       Assert.AreEqual(typeof(PastryOrder), newPastryOrder.GetType());
     }
+
+    [TestMethod]
+    public void GetQuantity_ReturnNumberOfPastry_Int()
+    {
+      int totalPastry = 3;
+      PastryOrder newPastryOrder = new PastryOrder(totalPastry);
+      int resultTotal = newPastryOrder.TotalPastry;
+      Assert.AreEqual(totalPastry, resultTotal);
+    }
   }
 
 }
