@@ -43,11 +43,16 @@ namespace Bakery.Tests
     }
   }
 
-  // [TestClass]
-  // public class PastryTests
-  // {
-    
-  // }
+  [TestClass]
+  public class PastryTests
+  {
+    [TestMethod]
+    public void PastryOrderConstructor_CreateInstanceOfPastryOrder_PastryOrder()
+    {
+      PastryOrder newPastryOrder = new PastryOrder();
+      Assert.AreEqual(typeof(PastryOrder), newPastryOrder.GetType());
+    }
+  }
 
 }
 
