@@ -6,17 +6,21 @@ using Pastry.Models;
 
 namespace Bakery.Tests
 {
-  [TestClass]
-  public class BakeryTests
-  {
-
-  }
-  
   // [TestClass]
-  // public class BreadTests
+  // public class BakeryTests
   // {
-    
+
   // }
+  
+  [TestClass]
+  public class BreadTests
+  {
+    public void BreadOrderConstructor_CreateQuantityForBreadOrder_BreadOrder()
+    {
+      BreadOrder newBreadOrder = new Bread();
+      Assert.AreEqual(typeof(BreadOrder), newBreadOrder.GetType());
+    }
+  }
 
   // [TestClass]
   // public class PastryTests
