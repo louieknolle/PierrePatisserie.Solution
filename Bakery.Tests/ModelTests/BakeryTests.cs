@@ -18,18 +18,20 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadOrderConstructor_CreateInstanceOfBreadOrder_BreadOrder()
     {
-      BreadOrder newBreadOrder = new BreadOrder();
+      BreadOrder newBreadOrder = new BreadOrder(3);
       Assert.AreEqual(typeof(BreadOrder), newBreadOrder.GetType());
     }
 
     [TestMethod]
     public void GetQuantity_ReturnNumberOfLoaves_Int()
     {
-      int loavesTotal = 3;
-      BreadOrder newBreadOrder = new BreadOrder(loavesTotal);
-      int total = newBreadOrder.TotalLoaves
-      Assert.AreEqual(loavesTotal, total);
+      int totalLoaves = 3;
+      BreadOrder newBreadOrder = new BreadOrder(totalLoaves);
+      int resultTotal = newBreadOrder.TotalLoaves;
+      Assert.AreEqual(totalLoaves, resultTotal);
     }
+
+    
   }
 
   // [TestClass]

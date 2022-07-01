@@ -7,11 +7,13 @@ namespace Bread.Models {
 
   public class BreadOrder
   {
-    // public int BreadOrder(int quantity)
-    // {
-    //   // Quantity = quantity;
+    public int TotalLoaves { get; }
 
-    //   // _instances.Add(this);
-    // }
+    public BreadOrder(int totalLoaves)
+    {
+      TotalLoaves = totalLoaves;
+
+      // _instances.Add(this);
+    }
   }
 }
