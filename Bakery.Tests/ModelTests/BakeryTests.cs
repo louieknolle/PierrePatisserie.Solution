@@ -31,7 +31,16 @@ namespace Bakery.Tests
       Assert.AreEqual(totalLoaves, resultTotal);
     }
 
-    
+    [TestMethod]
+    public void SetTotalLoaves_SetTotalLoaves_Int()
+    {
+      int totalLoaves = 3;
+      BreadOrder newBreadOrder = new BreadOrder(totalLoaves);
+      int updatedTotal = 5;
+      newBreadOrder.TotalLoaves = updatedTotal;
+      int resultTotal = newBreadOrder.TotalLoaves;
+      Assert.AreEqual(updatedTotal, resultTotal);
+    }
   }
 
   // [TestClass]
