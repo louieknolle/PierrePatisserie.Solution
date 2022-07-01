@@ -15,7 +15,8 @@ namespace Bakery.Tests
   [TestClass]
   public class BreadTests
   {
-    public void BreadOrderConstructor_CreateInstanceOFBreadOrder_BreadOrder()
+    [TestMethod]
+    public void BreadOrderConstructor_CreateInstanceOfBreadOrder_BreadOrder()
     {
       BreadOrder newBreadOrder = new BreadOrder();
       Assert.AreEqual(typeof(BreadOrder), newBreadOrder.GetType());

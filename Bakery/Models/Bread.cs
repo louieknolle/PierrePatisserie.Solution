@@ -5,7 +5,7 @@ using Pastry.Models;
 
 namespace Bread.Models {
 
-  public static class BreadOrder
+  public class BreadOrder
   {
     // public int BreadOrder(int quantity)
     // {
