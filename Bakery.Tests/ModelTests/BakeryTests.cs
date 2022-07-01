@@ -40,6 +40,14 @@ namespace Bakery.Tests
       newBreadOrder.TotalLoaves = updatedTotal;
       int resultTotal = newBreadOrder.TotalLoaves;
       Assert.AreEqual(updatedTotal, resultTotal);
+
+      [TestMethod]
+      public void FindBreadOrderTotal_CalculatePriceOfOneLoad_Int();
+      {
+        int totalLoaves = 1;
+        int orderTotal = FindBreadOrderTotal(totalLoaves);
+        Assert.AreEqual(5, orderTotal);
+      }
     }
   }
 
