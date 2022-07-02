@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/Bakery.Tests.csproj": {}
+    "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\Bakery.Tests.csproj": {}
   },
   "projects": {
-    "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/Bakery.Tests.csproj": {
+    "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\Bakery.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/Bakery.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\Bakery.Tests.csproj",
         "projectName": "Bakery.Tests",
-        "projectPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/Bakery.Tests.csproj",
-        "packagesPath": "/Users/louieknolle/.nuget/packages/",
-        "outputPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/obj/",
+        "projectPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\Bakery.Tests.csproj",
+        "packagesPath": "C:\\Users\\Louie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/louieknolle/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Louie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj": {
-                "projectPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj"
+              "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj": {
+                "projectPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj": {
+    "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj",
+        "projectUniqueName": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj",
         "projectName": "Bakery",
-        "projectPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj",
-        "packagesPath": "/Users/louieknolle/.nuget/packages/",
-        "outputPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/",
+        "projectPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj",
+        "packagesPath": "C:\\Users\\Louie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/louieknolle/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Louie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -117,12 +117,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

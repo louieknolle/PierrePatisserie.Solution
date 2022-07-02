@@ -48,7 +48,7 @@ namespace Bakery.Tests
       // int totalLoaves = 1;
       BreadOrder newBreadOrder = new BreadOrder(1);
       // int orderTotal = FindBreadOrderTotal(newBreadOrder);
-      Assert.AreEqual(5, FindBreadOrderTotal(newBreadOrder));
+      Assert.AreEqual(5, newBreadOrder.FindBreadOrderTotal());
     }
   }
 
