@@ -114,6 +114,13 @@ namespace Bakery.Tests
       PastryOrder newPastryOrder = new PastryOrder(3);
       Assert.AreEqual(5, newPastryOrder.FindPastryOrderTotal());
     }
+
+    [TestMethod]
+    public void FindPastryOrderTotal_CalculatePriceOfOFourPastry_Int()
+    {
+      PastryOrder newPastryOrder = new PastryOrder(4);
+      Assert.AreEqual(7, newPastryOrder.FindPastryOrderTotal());
+    }
   }
 
 }
