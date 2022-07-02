@@ -24,7 +24,7 @@ namespace Bread.Models {
       {
         orderTotal = 5;
       }
-      else if (total == 2)  
+      else if (total == 2 || total == 3)  
       {
         orderTotal = 10;
       }
