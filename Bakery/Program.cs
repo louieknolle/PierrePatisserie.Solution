@@ -20,15 +20,12 @@ namespace Bakery
     Console.WriteLine("\n**Please enter numeric values, our website was built by a web development student and will crash otherwise**\n", Color.Red);
 
     string enterSite = Console.ReadLine();
-  
     Console.WriteLine("How many loaves of bread would you like to order?\n", Color.DeepSkyBlue);
-    
     BreadOrder newBreadOrder = new BreadOrder(Int32.Parse(Console.ReadLine()));
 
     if (newBreadOrder.TotalLoaves < 0 )
     {
       Console.WriteLine("Please enter 1, 2, or 3 loaves to buy.", Color.Red);
-
       Main();
     }
     else 
@@ -43,8 +40,7 @@ namespace Bakery
 
     if (newPastryOrder.TotalPastry > 6 || newPastryOrder.TotalPastry < 0 )
     {
-      Console.WriteLine("\nPlease enter between 1 and 6 pastries to buy.\n", Color.Red);
-
+      Console.WriteLine("\nPlease enter between 1 and 6 pastries to buy.\n", Color.Red);f
       Main();
     }
     else 
@@ -53,9 +49,10 @@ namespace Bakery
       Console.WriteLine("\nYour pastry order comes to $" + pastryTotal + ".\n", Color.Green);
       Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
     }
-    int orderTotal = newBreadOrder.FindBreadOrderTotal() + newPastryOrder.FindPastryOrderTotal(); 
 
+    int orderTotal = newBreadOrder.FindBreadOrderTotal() + newPastryOrder.FindPastryOrderTotal(); 
     Console.WriteLine("\nYour entire order comes to $" + orderTotal + ". Thanks for supporting us and enjoy your treats!\n", Color.DeepSkyBlue);
+
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
 
@@ -64,6 +61,5 @@ namespace Bakery
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
     }
-
    }
   }
