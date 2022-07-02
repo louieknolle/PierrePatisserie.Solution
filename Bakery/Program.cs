@@ -16,23 +16,10 @@ namespace Bakery
     Console.WriteLine("Welcome to Pierre's Patisserie! Home of fine bread and fine pastries.", Color.DeepSkyBlue);
     Console.WriteLine("_____________________________________________________________________\n"); 
 
-    Console.WriteLine("Press 'Enter' to view our menu and pricing. \n", Color.Green);
+    Console.WriteLine("Pricing for bread: Buy 2 loaves, get one free! Single loaf = $5, two loaves = $10 and three loaves = $10! \n \n Pricing for pastry: 1 or 2 pastries = $2 each, 3 pastries = $5, 4 pastries = $7, 5 pastries = $9, 6 pastries = $10! \n");
+    Console.WriteLine("Press 'Enter' to begin ordering some scrumptiousness... \n", Color.Green);
     string enterSite = Console.ReadLine();
 
-    if (enterSite == "Enter")
-    {
-    Console.WriteLine("Pricing for bread: Buy 2 loaves, get one free! Single loaf = $5, two loaves = $10 and three loaves = $10! \n \n Pricing for pastry: 1 or 2 pastries = $2 each, 3 pastries = $5, 4 pastries = $7, 5 pastries = $9, 6 pastries = $10! \n");
-
-    Console.WriteLine("Press 'Enter' again to begin ordering!");
-    string beginOrder = Console.ReadLine();
-    }
-    else
-    {
-      Main();
-    }
-
-    if (beginOrder == "Enter")
-    {
     Console.WriteLine("How many loaves of bread would you like to order? Since we're a small business, current limit is three loaves.");
     BreadOrder newBreadOrder = new BreadOrder(Int32.Parse(Console.ReadLine()));
 
@@ -62,14 +49,10 @@ namespace Bakery
       int pastryTotal = newPastryOrder.FindPastryOrderTotal();
       Console.WriteLine("Your pastry order comes to $" + pastryTotal + ".");
     }
-    }
-    else 
-    {
-      Main();
+    int orderTotal = newBreadOrder.FindBreadOrderTotal() + newPastryOrder.FindPastryOrderTotal(); 
+
+    Console.WriteLine("Your entire order comes to $" + orderTotal + ". Thanks for supporting us and enjoy your treats!");
     }
 
-    int orderTotal = newBreadOrder.FindBreadOrderTotal() + newPastryOrder.FindPastryOrderTotal(); 
-    Console.WriteLine("Your order comes to $" + orderTotal + ".Thanks for supporting us and enjoy your treats!");
    }
   }
-}
