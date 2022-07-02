@@ -59,16 +59,7 @@ namespace Bakery
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
 
-    int DA = 244;
-    int V = 212;
-    int ID = 255;
-    for (int i = 0; i < 1; i++)
-    {
-      Console.WriteAscii("Goodbye :)", Color.FromArgb(DA, V, ID));
-
-      DA -= 18;
-      V -= 36;
-    }
+    Console.WriteAscii("Goodbye ( ._.)", Color.Fuchsia);
 
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
     Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
