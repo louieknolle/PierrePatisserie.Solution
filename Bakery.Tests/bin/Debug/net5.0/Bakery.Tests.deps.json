@@ -17,6 +17,29 @@
           "Bakery.Tests.dll": {}
         }
       },
+      "Colorful.Console/1.2.15": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1",
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Console": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Globalization": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Colorful.Console.dll": {
+            "assemblyVersion": "1.2.15.0",
+            "fileVersion": "1.2.15.0"
+          }
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1312,6 +1335,9 @@
         }
       },
       "Bakery/1.0.0": {
+        "dependencies": {
+          "Colorful.Console": "1.2.15"
+        },
         "runtime": {
           "Bakery.dll": {}
         }
@@ -1323,6 +1349,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Colorful.Console/1.2.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iDBG+0MHkVzM/p74WsfSpcNP2hL7E3o+8Y5ZEEbWQuYmRtHh/YXdbfEnvusTS2Ds8+KX17NGvuNOgTfBxXLCEw==",
+      "path": "colorful.console/1.2.15",
+      "hashPath": "colorful.console.1.2.15.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
