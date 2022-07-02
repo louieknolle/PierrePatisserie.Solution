@@ -15,5 +15,16 @@ namespace Bread.Models {
 
       // _instances.Add(this);
     }
+    
+    public int FindBreadOrderTotal()
+    {
+      int orderTotal = 0;
+      int total = TotalLoaves;
+      if (total == 1) 
+      {
+        orderTotal = 5;
+      }
+      return orderTotal;
+    }
   }
 }

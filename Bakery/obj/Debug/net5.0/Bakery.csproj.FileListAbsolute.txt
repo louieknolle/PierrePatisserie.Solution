@@ -1,0 +1,15 @@
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.csproj.AssemblyReference.cache
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.AssemblyInfoInputs.cache
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.AssemblyInfo.cs
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.csproj.CoreCompileInputs.cache
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/bin/Debug/net5.0/Bakery.deps.json
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/bin/Debug/net5.0/Bakery.runtimeconfig.json
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/bin/Debug/net5.0/Bakery.runtimeconfig.dev.json
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/bin/Debug/net5.0/Bakery.dll
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/bin/Debug/net5.0/ref/Bakery.dll
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/bin/Debug/net5.0/Bakery.pdb
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.dll
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/ref/Bakery.dll
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.pdb
+/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/obj/Debug/net5.0/Bakery.genruntimeconfig.cache
