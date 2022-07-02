@@ -5,14 +5,11 @@ using Pastry.Models;
 
 namespace Bakery.Models 
 {
-  // // public class Bakery
-  // {
-
-
-  //   public int TotalBakeryOrder()
-  //   {
-  //     int orderTotal = newBreadOrder.FindBreadOrderTotal() + newPastryOrder.FindPastryOrderTotal();
-  //     return orderTotal;
-  //   }
-  // }
+  public static class Bakery
+  {
+    public static BakeryOrder()
+    {
+      
+    }
+  }
 }

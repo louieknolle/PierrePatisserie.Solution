@@ -10,11 +10,6 @@ namespace Bakery.Tests
   public class BakeryTests
   {
     [TestMethod]
-    public void BakeryOrderConstructor_CreateInstanceOfBakeryOrder_BakeryOrder()
-    {
-      BakeryOrder newBakeryOrder = new BakeryOrder(3);
-      Assert.AreEqual(typeof(BakeryOrder), newBakeryOrder.GetType());
-    }
   }
   
   [TestClass]
