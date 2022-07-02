@@ -16,10 +16,10 @@ namespace Bakery
     Console.WriteLine("Welcome to Pierre's Patisserie! Home of fine bread and fine pastries.", Color.DeepSkyBlue);
     Console.WriteLine("_____________________________________________________________________\n"); 
 
-    Console.WriteLine("Pricing for bread: Buy 2 loaves, get one free! Single loaf = $5, two loaves = $10 and three loaves = $10! \n \n Pricing for pastry: 1 or 2 pastries = $2 each, 3 pastries = $5, 4 pastries = $7, 5 pastries = $9, 6 pastries = $10! \n");
+    Console.WriteLine("Pricing for bread: Buy 2 loaves, get one free! Single loaf = $5, two loaves = $10 and three loaves = $10! \n \n Pricing for pastry: 1 or 2 pastries = $2 each, 3 pastries = $5, 4 pastries = $7, 5 pastries = $9, 6 pastries = $10! \n", Color.Indigo);
     Console.WriteLine("Press 'Enter' to begin ordering some scrumptiousness... \n", Color.Green);
     string enterSite = Console.ReadLine();
-
+  
     Console.WriteLine("How many loaves of bread would you like to order? Since we're a small business, current limit is three loaves.");
     BreadOrder newBreadOrder = new BreadOrder(Int32.Parse(Console.ReadLine()));
 
