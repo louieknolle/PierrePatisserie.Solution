@@ -55,6 +55,13 @@ namespace Bakery.Tests
       BreadOrder newBreadOrder = new BreadOrder(2);
       Assert.AreEqual(10, newBreadOrder.FindBreadOrderTotal());
     }
+
+    [TestMethod]
+    public void FindBreadOrderTotal_CalculatePriceOfThreeLoaves_Int()
+    {
+      BreadOrder newBreadOrder = new BreadOrder(3);
+      Assert.AreEqual(10, newBreadOrder.FindBreadOrderTotal());
+    }
   }
 
   [TestClass]
