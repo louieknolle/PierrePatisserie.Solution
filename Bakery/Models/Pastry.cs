@@ -15,5 +15,16 @@ namespace Pastry.Models {
 
       // _instances.Add(this);
     }
+
+    public int FindPastryOrderTotal()
+    {
+      int orderTotal = 0;
+      int total = TotalPastry;
+      if (total == 1 || total == 2) 
+      {
+        orderTotal = total * 2;
+      }
+      return orderTotal;
+    }
   }
 }
