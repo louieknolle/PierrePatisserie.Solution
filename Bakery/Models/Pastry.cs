@@ -23,6 +23,10 @@ namespace Pastry.Models {
       if (total == 1 || total == 2) 
       {
         orderTotal = total * 2;
+      } 
+      else 
+      {
+        orderTotal = 5;
       }
       return orderTotal;
     }
