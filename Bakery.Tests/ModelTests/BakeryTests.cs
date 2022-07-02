@@ -6,11 +6,16 @@ using Pastry.Models;
 
 namespace Bakery.Tests
 {
-  // [TestClass]
-  // public class BakeryTests
-  // {
-
-  // }
+  [TestClass]
+  public class BakeryTests
+  {
+    [TestMethod]
+    public void BakeryOrderConstructor_CreateInstanceOfBakeryOrder_BakeryOrder()
+    {
+      BakeryOrder newBakeryOrder = new BakeryOrder(3);
+      Assert.AreEqual(typeof(BakeryOrder), newBakeryOrder.GetType());
+    }
+  }
   
   [TestClass]
   public class BreadTests
@@ -127,6 +132,13 @@ namespace Bakery.Tests
     {
       PastryOrder newPastryOrder = new PastryOrder(5);
       Assert.AreEqual(9, newPastryOrder.FindPastryOrderTotal());
+    }
+
+    [TestMethod]
+    public void FindPastryOrderTotal_CalculatePriceOfOSixPastry_Int()
+    {
+      PastryOrder newPastryOrder = new PastryOrder(6);
+      Assert.AreEqual(10, newPastryOrder.FindPastryOrderTotal());
     }
   }
 

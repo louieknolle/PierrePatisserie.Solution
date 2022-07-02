@@ -12,8 +12,6 @@ namespace Bread.Models {
     public BreadOrder(int totalLoaves)
     {
       TotalLoaves = totalLoaves;
-
-      // _instances.Add(this);
     }
     
     public int FindBreadOrderTotal()

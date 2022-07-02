@@ -12,8 +12,6 @@ namespace Pastry.Models {
     public PastryOrder(int totalPastry)
     {
       TotalPastry = totalPastry;
-
-      // _instances.Add(this);
     }
 
     public int FindPastryOrderTotal()
@@ -32,9 +30,13 @@ namespace Pastry.Models {
       {
         orderTotal = 7;
       }
-      else 
+      else if (total == 5)
       {
         orderTotal = 9;
+      }
+      else 
+      {
+        orderTotal = 10;
       }
       return orderTotal;
     }

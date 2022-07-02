@@ -7,6 +7,6 @@ namespace Bakery.Models {
 
   public static class Bakery
   {
-
+    
   }
 }
