@@ -28,9 +28,13 @@ namespace Pastry.Models {
       {
         orderTotal = 5;
       }
-      else 
+      else if (total == 4)
       {
         orderTotal = 7;
+      }
+      else 
+      {
+        orderTotal = 9;
       }
       return orderTotal;
     }
