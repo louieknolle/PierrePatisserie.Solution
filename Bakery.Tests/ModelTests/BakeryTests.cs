@@ -43,12 +43,17 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void FindBreadOrderTotal_CalculatePriceOfOneLoad_Int()
+    public void FindBreadOrderTotal_CalculatePriceOfOneLoaf_Int()
     {
-      // int totalLoaves = 1;
       BreadOrder newBreadOrder = new BreadOrder(1);
-      // int orderTotal = FindBreadOrderTotal(newBreadOrder);
       Assert.AreEqual(5, newBreadOrder.FindBreadOrderTotal());
+    }
+
+    [TestMethod]
+    public void FindBreadOrderTotal_CalculatePriceOfTwoLoaves_Int()
+    {
+      BreadOrder newBreadOrder = new BreadOrder(2);
+      Assert.AreEqual(10, newBreadOrder.FindBreadOrderTotal());
     }
   }
 
