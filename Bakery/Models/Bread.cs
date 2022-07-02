@@ -24,6 +24,10 @@ namespace Bread.Models {
       {
         orderTotal = 5;
       }
+      else  
+      {
+        orderTotal = 10;
+      }
       return orderTotal;
     }
   }
