@@ -2,6 +2,30 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Colorful.Console/1.2.15": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1",
+          "System.Collections": "4.0.11",
+          "System.Collections.Concurrent": "4.0.12",
+          "System.Console": "4.0.0",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Linq": "4.1.0",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Colorful.Console.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Colorful.Console.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -2011,6 +2035,9 @@
       "Bakery/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Colorful.Console": "1.2.15"
+        },
         "compile": {
           "bin/placeholder/Bakery.dll": {}
         },
@@ -2021,6 +2048,24 @@
     }
   },
   "libraries": {
+    "Colorful.Console/1.2.15": {
+      "sha512": "iDBG+0MHkVzM/p74WsfSpcNP2hL7E3o+8Y5ZEEbWQuYmRtHh/YXdbfEnvusTS2Ds8+KX17NGvuNOgTfBxXLCEw==",
+      "type": "package",
+      "path": "colorful.console/1.2.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "colorful.console.1.2.15.nupkg.sha512",
+        "colorful.console.nuspec",
+        "lib/net40/Colorful.Console.dll",
+        "lib/net45/Colorful.Console.dll",
+        "lib/net451/Colorful.Console.dll",
+        "lib/net452/Colorful.Console.dll",
+        "lib/net46/Colorful.Console.dll",
+        "lib/net461/Colorful.Console.dll",
+        "lib/netstandard2.0/Colorful.Console.dll"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -6703,19 +6748,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Louie\\.nuget\\packages\\": {}
+    "/Users/louieknolle/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\Bakery.Tests.csproj",
+      "projectUniqueName": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/Bakery.Tests.csproj",
       "projectName": "Bakery.Tests",
-      "projectPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\Bakery.Tests.csproj",
-      "packagesPath": "C:\\Users\\Louie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery.Tests\\obj\\",
+      "projectPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/Bakery.Tests.csproj",
+      "packagesPath": "/Users/louieknolle/.nuget/packages/",
+      "outputPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Louie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/louieknolle/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6727,8 +6772,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj": {
-              "projectPath": "C:\\Users\\Louie\\Desktop\\PierrePatisserie.Solution\\Bakery\\Bakery.csproj"
+            "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj": {
+              "projectPath": "/Users/louieknolle/Desktop/PierrePatisserie.Solution/Bakery/Bakery.csproj"
             }
           }
         }
@@ -6771,7 +6816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

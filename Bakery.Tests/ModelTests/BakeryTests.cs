@@ -7,12 +7,6 @@ using Pastry.Models;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BakeryTests
-  {
-    [TestMethod]
-  }
-  
-  [TestClass]
   public class BreadTests
   {
     [TestMethod]
@@ -61,6 +55,13 @@ namespace Bakery.Tests
     {
       BreadOrder newBreadOrder = new BreadOrder(3);
       Assert.AreEqual(10, newBreadOrder.FindBreadOrderTotal());
+    }
+
+    [TestMethod]
+    public void FindBreadOrderTotal_CalculatePriceOfMoreThan3Loaves_Int()
+    {
+      BreadOrder newBreadOrder = new BreadOrder(5);
+      Assert.AreEqual(20, newBreadOrder.FindBreadOrderTotal());
     }
   }
 
@@ -136,14 +137,4 @@ namespace Bakery.Tests
       Assert.AreEqual(10, newPastryOrder.FindPastryOrderTotal());
     }
   }
-
 }
-
-
-
- //     [TestMethod]
- // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
- // {
- //   // any necessary logic to prep for test; instantiating new classes, etc.
- //   Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
- // }

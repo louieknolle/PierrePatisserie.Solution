@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System;
 using Bakery.Models;
 using Pastry.Models;
+using Bakery;
 
 namespace Bread.Models {
 
@@ -18,13 +19,20 @@ namespace Bread.Models {
     {
       int orderTotal = 0;
       int total = TotalLoaves;
-      if (total == 1) 
+      if (total <= 3)
       {
-        orderTotal = 5;
+        if (total == 1) 
+        {
+          orderTotal = 5;
+        }
+        else if (total == 2 || total == 3)  
+        {
+          orderTotal = 10;
+        }
       }
-      else if (total == 2 || total == 3)  
+      else 
       {
-        orderTotal = 10;
+        orderTotal = ((total / 3) * 2 + total % 3) * 5;
       }
       return orderTotal;
     }

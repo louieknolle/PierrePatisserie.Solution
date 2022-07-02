@@ -2,9 +2,10 @@ using System.Collections.Generic;
 using System;
 using Bakery.Models;
 using Bread.Models;
+using Bakery;
 
-namespace Pastry.Models {
-
+namespace Pastry.Models 
+{
   public class PastryOrder
   {
     public int TotalPastry { get; set; }
