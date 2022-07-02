@@ -40,7 +40,7 @@ namespace Bakery
 
     if (newPastryOrder.TotalPastry > 6 || newPastryOrder.TotalPastry < 0 )
     {
-      Console.WriteLine("\nPlease enter between 1 and 6 pastries to buy.\n", Color.Red);f
+      Console.WriteLine("\nPlease enter between 1 and 6 pastries to buy.\n", Color.Red);
       Main();
     }
     else 
@@ -53,13 +53,13 @@ namespace Bakery
     int orderTotal = newBreadOrder.FindBreadOrderTotal() + newPastryOrder.FindPastryOrderTotal(); 
     Console.WriteLine("\nYour entire order comes to $" + orderTotal + ". Thanks for supporting us and enjoy your treats!\n", Color.DeepSkyBlue);
 
-    Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
-    Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
+    Console.WriteLine("_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_ \n", Color.Fuchsia); 
+    Console.WriteLine("_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_ \n", Color.Fuchsia); 
 
     Console.WriteAscii("Goodbye ( ._.)", Color.Fuchsia);
 
-    Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
-    Console.WriteLine("_____________________________________________________________________ \n", Color.Fuchsia); 
+    Console.WriteLine("_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_ \n", Color.Fuchsia); 
+    Console.WriteLine("_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_ \n", Color.Fuchsia);
     }
    }
   }
